@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Neumorphism/static/css/main.3d848acf.chunk.css",
+    "main.css": "/Neumorphism/static/css/main.2b79e699.chunk.css",
     "main.js": "/Neumorphism/static/js/main.af13d9d4.chunk.js",
     "main.js.map": "/Neumorphism/static/js/main.af13d9d4.chunk.js.map",
     "runtime-main.js": "/Neumorphism/static/js/runtime-main.fa6b7643.js",
@@ -8,13 +8,13 @@
     "static/js/2.2fa002d0.chunk.js": "/Neumorphism/static/js/2.2fa002d0.chunk.js",
     "static/js/2.2fa002d0.chunk.js.map": "/Neumorphism/static/js/2.2fa002d0.chunk.js.map",
     "index.html": "/Neumorphism/index.html",
-    "static/css/main.3d848acf.chunk.css.map": "/Neumorphism/static/css/main.3d848acf.chunk.css.map",
+    "static/css/main.2b79e699.chunk.css.map": "/Neumorphism/static/css/main.2b79e699.chunk.css.map",
     "static/js/2.2fa002d0.chunk.js.LICENSE.txt": "/Neumorphism/static/js/2.2fa002d0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.fa6b7643.js",
     "static/js/2.2fa002d0.chunk.js",
-    "static/css/main.3d848acf.chunk.css",
+    "static/css/main.2b79e699.chunk.css",
     "static/js/main.af13d9d4.chunk.js"
   ]
 }
