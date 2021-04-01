@@ -2,9 +2,14 @@
     background-color:  #e6e7ee;
 
     .home h1,
-    .home p {
+    .home p,
+    .home h6 {
         color: #050505;
     }
+    .about p {
+        color: black;
+    }
+
 }
 
 // Blue theme ------------------------------------------------------------------------------
@@ -13,6 +18,12 @@
     color: black;
     .theme-options {
         box-shadow:inset 3px 3px 6px #1a37a4,inset -3px -3px 6px #234bde;
+    }
+    .about .frameworks {
+        box-shadow: inset 2px 2px 5px #1a37a4, inset -3px -3px 7px #234bde !important;
+    }
+    .about .tools {
+        box-shadow: inset 2px 2px 5px #1a37a4, inset -3px -3px 7px #234bde !important;   
     }
     .nav-link {
         transition: all 0.2s ease;
@@ -73,6 +84,12 @@
     background-color: #f26b31;
     .theme-options {
         box-shadow:inset 3px 3px 6px #ce5b2a,inset -3px -3px 6px #ff7b38;
+    }
+    .about .frameworks {
+        box-shadow: inset 2px 2px 5px #ce5b2a, inset -3px -3px 7px #ff7b38 !important;
+    }
+    .about .tools {
+        box-shadow: inset 2px 2px 5px #ce5b2a, inset -3px -3px 7px #ff7b38 !important;   
     }
     .nav-link {
         transition: all 0.2s ease;
@@ -137,6 +154,12 @@
     .theme-options {
         box-shadow:inset 3px 3px 6px #724da7,inset -3px -3px 6px #9a68e1;
     }
+    .about .frameworks {
+        box-shadow: inset 2px 2px 5px #724da7, inset -3px -3px 7px #9a68e1 !important;
+    }
+    .about .tools {
+        box-shadow: inset 2px 2px 5px #724da7, inset -3px -3px 7px #9a68e1 !important;   
+    }
     .logo {
         fill: white;
     }
@@ -198,6 +221,12 @@
     .theme-options {
         box-shadow:inset 3px 3px 6px #61b33b,inset -3px -3px 6px #83f34f;
     }
+    .about .frameworks {
+        box-shadow: inset 2px 2px 5px #61b33b, inset -3px -3px 7px #83f34f !important;
+    }
+    .about .tools {
+        box-shadow: inset 2px 2px 5px #61b33b, inset -3px -3px 7px #83f34f !important;   
+    }
     .nav-link {
         transition: all 0.2s ease;
         box-shadow:  -20px 20px 60px #61b33b,
@@ -258,8 +287,18 @@
     .theme-options {
         box-shadow:inset 3px 3px 6px #302e2e,inset -3px -3px 6px #3b3a3a;
     }
+    .about .frameworks {
+        box-shadow: inset 2px 2px 5px #302e2e, inset -3px -3px 7px #3b3a3a !important;
+    }
+    .about .tools {
+        box-shadow: inset 2px 2px 5px #302e2e, inset -3px -3px 7px #3b3a3a !important;   
+    }
     .logo {
         fill: white;
+    }
+    .grid a,
+    .grid2 a {
+        color: gray;
     }
     .nav-link {
         transition: all 0.2s ease;
