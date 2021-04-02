@@ -2,12 +2,14 @@ import Project1 from './images/project-1.png'
 import Project2 from './images/project-2.png'
 import Project3 from './images/project-3.png'
 import Project4 from './images/project-4.png'
+// import Cloud from './images/cloud.png'
 
 
 const Work = () => {
       
       return (
         <div>
+          {/* <img className='cloud' src={Cloud} /> */}
           <div className='wrapper'>
             <div className='main'>
                 <div className='inside-wrapper'>

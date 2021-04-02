@@ -293,6 +293,9 @@
     .about .tools {
         box-shadow: inset 2px 2px 5px #302e2e, inset -3px -3px 7px #3b3a3a !important;   
     }
+    .cloud {
+        filter: drop-shadow(2px 2px 3px white);
+    }
     .logo {
         fill: white;
     }

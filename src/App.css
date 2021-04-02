@@ -107,7 +107,7 @@ nav {
   color: rgb(92, 91, 91);
   font-weight: 500;
   margin: 0 auto;
-  height: 82vh;
+  height: 100vh;
   margin-top: 0.8rem;
   background-clip: padding-box;
   border: 0.0625rem solid #e2e6ee;
@@ -288,11 +288,15 @@ h3 {
     top: -1.5%;
     transform: rotate(45deg);
   }
-  .home .img {
-    position: absolute !important;
-    left: 69.5% !important;
-    top: 18.5% !important;
-  }
+  /*
+  .cloud {
+    position: absolute;
+    left: 3%;
+    z-index: 0;
+    filter: drop-shadow(1px 1px 3px black);
+    margin-top:-40px;
+
+  } */
   /* .logo span {
     padding: 6px 10px;
     font-size: 18px;
@@ -310,9 +314,15 @@ h3 {
   .home h6 {
     font-size: 14px !important;
     position: absolute;
-    top: 91%;
+    top: 92%;
     left: 25%;
+    text-align: center;
   }
+  .home .img {
+    position: absolute !important;
+    left: 67% !important;
+    top: 24.5% !important;
+   }
   .about {
     font-size: 15px;
     display: grid;
@@ -396,6 +406,19 @@ h3 {
     top: 19%;
   }
 }
+@media (max-width:1700px) {
+  .cloud {
+    position: absolute;
+    left: 12%;
+    z-index: 0;
+    filter: drop-shadow(1px 1px 3px black);
+    margin-top:-50px;
+
+  }
+  .home h6 {
+    font-size: 20px;
+  }
+}
 /* Bubbles */
 
 .bubbles{
@@ -417,83 +440,85 @@ h3 {
   height: 40px;
   left: 10%;
   animation-duration: 8s;
+  animation-delay: 2s;
 }
+
 .bubble:nth-child(2){
   width: 20px;
   height: 20px;
   left: 20%;
   animation-duration: 5s;
-  animation-delay: 11s;
+  animation-delay: 1s;
 }
 .bubble:nth-child(3){
   width: 50px;
   height: 50px;
   left: 35%;
   animation-duration: 5s;
-  animation-delay: 10s;
+  animation-delay: 1s;
 }
 .bubble:nth-child(4){
   width: 70px;
   height: 70px;
   left: 50%;
   animation-duration: 10s;
-  animation-delay: 8s;
+  animation-delay: 0s;
 }
 .bubble:nth-child(5){
   width: 35px;
   height: 35px;
   left: 55%;
   animation-duration: 6s;
-  animation-delay: 6s;
+  animation-delay: 0s;
 }
 .bubble:nth-child(6){
   width: 45px;
   height: 45px;
   left: 40%;
   animation-duration: 8s;
-  animation-delay: 7s;
+  animation-delay: 1s;
 }
 .bubble:nth-child(7){
   width: 25px;
   height: 25px;
   left: 75%;
   animation-duration: 7s;
-  animation-delay: 8s;
+  animation-delay: 0s;
 }
 .bubble:nth-child(8){
   width: 60px;
   height: 60px;
   left: 80%;
   animation-duration: 6s;
-  animation-delay: 6s;
+  animation-delay: 1s;
 }
 .bubble:nth-child(9){
   width: 15px;
   height: 15px;
   left: 70%;
   animation-duration: 9s;
-  animation-delay: 5s;
+  animation-delay: 2s;
 }
 .bubble:nth-child(10){
   width: 40px;
   height: 40px;
   left: 25%;
   animation-duration: 7s;
-  animation-delay: 7s;
+  animation-delay: 1s;
 }
 .bubble:nth-child(11){
   width: 15px;
   height: 15px;
   left: 70%;
   animation-duration: 9s;
-  animation-delay: 6s;
+  animation-delay: 0s;
 }
 .bubble:nth-child(12){
   width: 40px;
   height: 40px;
   left: 25%;
   animation-duration: 8s;
-  animation-delay: 4s;
+  animation-delay: 0s;
 }
 @keyframes flying{
   0%{
