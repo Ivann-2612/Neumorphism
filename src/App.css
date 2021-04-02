@@ -78,8 +78,8 @@ nav {
 .social-icons a:focus {
   box-shadow:inset 3px 3px 6px #b8b9be,inset -3px -3px 6px #ffffff;
 }
-.fab  {
-  color: rgb(92, 91, 91) !important;
+.fab,
+.fas  {
   text-align: center;
   margin-left: 2px;
 }
@@ -210,7 +210,7 @@ h3 {
   grid-template-columns: repeat(1,1fr);
   display: grid;
   margin: auto 0;
-  transform: translate(-40px);
+  padding: 25px;
   place-items: center;
   margin-top: 20px;
   /* text-shadow:  5px 9px 5px #b8b9be,  -1px -1px 7px #ffffff !important;
@@ -220,16 +220,23 @@ h3 {
   z-index: 99;
   color:#e2e6ee ;
 }
+.about h4 {
+  text-align: left;
+  line-height: 1.2;
+  margin-left: 90px;
+}
 .about .skills {
   min-height: 20vh;
+  display: grid;
   width: 50%;
-  margin-left: 100px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  place-items: center;
 }
 .about .frameworks {
   box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #ffffff !important;
   display: grid;
   height: 30vh;
+  width: 70%;
   grid-template-rows: repeat(3,1fr);
   text-align: center;
   margin-bottom: 20px;
@@ -239,6 +246,7 @@ h3 {
   box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #ffffff !important;
   grid-template-columns: repeat(1,1fr);
   text-align: center;
+  width: 70%;
 }
 .Waterdrop {
   position: relative;
@@ -279,7 +287,7 @@ h3 {
   position:absolute;
   left:55%;
   top:20%;
-  opacity:0.75;
+  opacity:0.8;
 }
 @media (max-width:600px) {
   .logo {
@@ -301,8 +309,16 @@ h3 {
     padding: 6px 10px;
     font-size: 18px;
   } */
+  .wrapper {
+    max-height: 90vh;
+  }
+  .wrapp-div > p h1 h2{
+    margin-top: -150px !important;
+    background-color: red;
+  }
   .home p {
     font-size: 27px;
+  
   }
   .home h1 {
     font-size: 50px;
@@ -320,14 +336,17 @@ h3 {
   }
   .home .img {
     position: absolute !important;
-    left: 67% !important;
-    top: 24.5% !important;
+    left: 54% !important;
+    top: 26.5% !important;
    }
+   .Waterdrop {
+    margin: 50px;
+  }
   .about {
     font-size: 15px;
     display: grid;
     margin: auto 0;
-    transform: translate(-40px);
+    transform: translate(-50px);
     place-items: center;
   }
   .about .skills {
@@ -336,7 +355,6 @@ h3 {
   .about .frameworks {
     padding: 15px;
     min-width: 70vw;
-    margin-top: 20px;
     margin-bottom: 20px;
   }
   .about .tools {
@@ -350,6 +368,7 @@ h3 {
     margin-right: 5px;
     color: darkred !important;
   }
+  
   .nav {
     height: 120px;
   }

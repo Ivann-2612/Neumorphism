@@ -63,13 +63,13 @@ const Nav = () => {
                   </a>
               </li>
               <li>
-                  <a href="top" target="_blank"  aria-label="github social link">
+                  <a href="https://github.com/Ivann-2612" target="_blank"  aria-label="github social link">
                       <span aria-hidden="true" className="fab fa-github"></span>
                   </a>
               </li>
               <li>
-                  <a href="top" target="_blank"  aria-label="dribbble social link">
-                      <span aria-hidden="true" className="fab fa-dribbble"></span>
+                  <a href="https://www.dropbox.com/s/jocadmj776eiiot/Ivan%20Nikolic%20CV.pdf?dl=0" target="_blank"  aria-label="resume social link">
+                      <span aria-hidden="true" className="fas fa-file"></span>
                   </a>
               </li>
               </ul>
