@@ -5,13 +5,11 @@ const About = () => {
         <div className='wrapper'>
             <div className='about'>
               <h4>I started as a self-taught web developer
-              and continued learning JS and React at
-              IT Bootcamp.
+              and continued learning JS and React.
               I have a strong will to progress
               and learn new technologies.
               My interests are innovative design and
-              optimum user experience.
-              </h4>
+              optimum user experience.</h4>
             <div className='skills'>
             <div className='frameworks'>
               <h4>Languages &amp; Frameworks</h4>
