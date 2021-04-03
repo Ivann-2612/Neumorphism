@@ -4,7 +4,7 @@ import Avatar from './images/linkedin.png'
 
 const Home = () => {
     return (
-        <div className='wrapper'>
+        <div className='wrapper1'>
                <div className='home'>
                <div className='Waterdrop'></div>
                <img className='img' src={Avatar} alt='avatar' />

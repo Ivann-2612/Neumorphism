@@ -164,6 +164,14 @@ h3 {
   box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #ffffff !important;
 
 }
+.alanBtn-root  {
+ position: absolute;
+ top: 40%;
+}
+.wrapper1 {
+  max-height: 100vh;
+  height: 95vh;
+}
 .home {
   display: flex;
   flex-direction: column;
@@ -235,7 +243,7 @@ h3 {
 .about .frameworks {
   box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #ffffff !important;
   display: grid;
-  height: 23vh;
+  height: 23.5vh;
   width: 70%;
   grid-template-rows: repeat(3,1fr);
   text-align: center;
@@ -336,8 +344,8 @@ h3 {
   }
   .home .img {
     position: absolute !important;
-    left: 54% !important;
-    top: 26.5% !important;
+    left: 53.5% !important;
+    top: 24.5% !important;
    }
    .Waterdrop {
     margin: 50px;
@@ -353,15 +361,18 @@ h3 {
     margin-left: 0;
   }
   .about .frameworks {
-    padding: 15px;
-    min-width: 70vw;
+    padding: 0 10px 0 10px;
+    width: 70vw;
+    height: 26vh;
     margin-bottom: 20px;
   }
   .about .tools {
     min-width: 70vw;
+    height: 22vh;
   }
   .tools-design {
     text-align: center;
+    padding: 0;
   }
   .about i {
     margin-right: 5px;
