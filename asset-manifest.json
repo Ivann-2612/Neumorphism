@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Neumorphism-portfolio/static/css/main.cdae0cbb.chunk.css",
-    "main.js": "/Neumorphism-portfolio/static/js/main.4ad70370.chunk.js",
-    "main.js.map": "/Neumorphism-portfolio/static/js/main.4ad70370.chunk.js.map",
+    "main.css": "/Neumorphism-portfolio/static/css/main.f0b9bebc.chunk.css",
+    "main.js": "/Neumorphism-portfolio/static/js/main.218629e6.chunk.js",
+    "main.js.map": "/Neumorphism-portfolio/static/js/main.218629e6.chunk.js.map",
     "runtime-main.js": "/Neumorphism-portfolio/static/js/runtime-main.d328b8e1.js",
     "runtime-main.js.map": "/Neumorphism-portfolio/static/js/runtime-main.d328b8e1.js.map",
-    "static/js/2.1e94c34f.chunk.js": "/Neumorphism-portfolio/static/js/2.1e94c34f.chunk.js",
-    "static/js/2.1e94c34f.chunk.js.map": "/Neumorphism-portfolio/static/js/2.1e94c34f.chunk.js.map",
+    "static/js/2.aeaeb019.chunk.js": "/Neumorphism-portfolio/static/js/2.aeaeb019.chunk.js",
+    "static/js/2.aeaeb019.chunk.js.map": "/Neumorphism-portfolio/static/js/2.aeaeb019.chunk.js.map",
     "index.html": "/Neumorphism-portfolio/index.html",
-    "static/css/main.cdae0cbb.chunk.css.map": "/Neumorphism-portfolio/static/css/main.cdae0cbb.chunk.css.map",
-    "static/js/2.1e94c34f.chunk.js.LICENSE.txt": "/Neumorphism-portfolio/static/js/2.1e94c34f.chunk.js.LICENSE.txt",
+    "static/css/main.f0b9bebc.chunk.css.map": "/Neumorphism-portfolio/static/css/main.f0b9bebc.chunk.css.map",
+    "static/js/2.aeaeb019.chunk.js.LICENSE.txt": "/Neumorphism-portfolio/static/js/2.aeaeb019.chunk.js.LICENSE.txt",
     "static/media/linkedin.830269be.png": "/Neumorphism-portfolio/static/media/linkedin.830269be.png",
     "static/media/project-1.34bc178b.png": "/Neumorphism-portfolio/static/media/project-1.34bc178b.png",
     "static/media/project-2.87931d0a.png": "/Neumorphism-portfolio/static/media/project-2.87931d0a.png",
@@ -18,8 +18,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.d328b8e1.js",
-    "static/js/2.1e94c34f.chunk.js",
-    "static/css/main.cdae0cbb.chunk.css",
-    "static/js/main.4ad70370.chunk.js"
+    "static/js/2.aeaeb019.chunk.js",
+    "static/css/main.f0b9bebc.chunk.css",
+    "static/js/main.218629e6.chunk.js"
   ]
 }
