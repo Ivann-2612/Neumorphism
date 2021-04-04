@@ -15,14 +15,14 @@ const Work = () => {
                 <div className='inside-wrapper'>
                   {/* <p>Ivan Nikolic</p> */}
                   <div className='grid'>
-                   <h3><img src={Project1} /><br/><a href='https://ivann-2612.github.io/News-app/'>Blog App</a></h3>
-                   <h3><img src={Project2} /><br/><a href='https://ivann-2612.github.io/Recipes-app/'>Recipes App</a></h3>
-                   <h3><img src={Project3} /><br/><a href='https://ivann-2612.github.io/weather-app/'>Weather App</a></h3>
-                   <h3><img src={Project4} /><br/><a href='https://ivann-2612.github.io/To-do-list/'>To-do App</a></h3>
+                   <h3><img src={Project1} alt='project1' /><br/><a href='https://ivann-2612.github.io/News-app/'>Blog App</a></h3>
+                   <h3><img src={Project2} alt='project2' /><br/><a href='https://ivann-2612.github.io/Recipes-app/'>Recipes App</a></h3>
+                   <h3><img src={Project3} alt='project3' /><br/><a href='https://ivann-2612.github.io/weather-app/'>Weather App</a></h3>
+                   <h3><img src={Project4} alt='project4' /><br/><a href='https://ivann-2612.github.io/To-do-list/'>To-do App</a></h3>
                   </div>
                   <div className='grid2'>
-                   <h3 className='grid2-1'><img src={Project1} /><br/><a href='https://ivann-2612.github.io/Zavrsni-projekat/'>News App</a></h3>
-                   <h3 className='grid2-2'><img src={Project1} /><br/><a href='https://ivann-2612.github.io/To-do-list/'>News App</a></h3>
+                   <h3 className='grid2-1'><img src={Project1} alt='project1' /><br/><a href='https://ivann-2612.github.io/Zavrsni-projekat/'>News App</a></h3>
+                   <h3 className='grid2-2'><img src={Project1} alt='project1' /><br/><a href='https://ivann-2612.github.io/To-do-list/'>News App</a></h3>
                   </div>
                 </div>
             </div>
