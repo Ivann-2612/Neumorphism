@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Neumorphism-portfolio/static/css/main.a3b6b9a2.chunk.css",
-    "main.js": "/Neumorphism-portfolio/static/js/main.e47a31bd.chunk.js",
-    "main.js.map": "/Neumorphism-portfolio/static/js/main.e47a31bd.chunk.js.map",
+    "main.css": "/Neumorphism-portfolio/static/css/main.b7094c3d.chunk.css",
+    "main.js": "/Neumorphism-portfolio/static/js/main.7a2b943a.chunk.js",
+    "main.js.map": "/Neumorphism-portfolio/static/js/main.7a2b943a.chunk.js.map",
     "runtime-main.js": "/Neumorphism-portfolio/static/js/runtime-main.d328b8e1.js",
     "runtime-main.js.map": "/Neumorphism-portfolio/static/js/runtime-main.d328b8e1.js.map",
     "static/js/2.4ef0ed8d.chunk.js": "/Neumorphism-portfolio/static/js/2.4ef0ed8d.chunk.js",
     "static/js/2.4ef0ed8d.chunk.js.map": "/Neumorphism-portfolio/static/js/2.4ef0ed8d.chunk.js.map",
     "index.html": "/Neumorphism-portfolio/index.html",
-    "static/css/main.a3b6b9a2.chunk.css.map": "/Neumorphism-portfolio/static/css/main.a3b6b9a2.chunk.css.map",
+    "static/css/main.b7094c3d.chunk.css.map": "/Neumorphism-portfolio/static/css/main.b7094c3d.chunk.css.map",
     "static/js/2.4ef0ed8d.chunk.js.LICENSE.txt": "/Neumorphism-portfolio/static/js/2.4ef0ed8d.chunk.js.LICENSE.txt",
     "static/media/linkedin.830269be.png": "/Neumorphism-portfolio/static/media/linkedin.830269be.png",
     "static/media/project-1.34bc178b.png": "/Neumorphism-portfolio/static/media/project-1.34bc178b.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.d328b8e1.js",
     "static/js/2.4ef0ed8d.chunk.js",
-    "static/css/main.a3b6b9a2.chunk.css",
-    "static/js/main.e47a31bd.chunk.js"
+    "static/css/main.b7094c3d.chunk.css",
+    "static/js/main.7a2b943a.chunk.js"
   ]
 }
