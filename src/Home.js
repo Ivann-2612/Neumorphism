@@ -1,17 +1,18 @@
 import React from 'react'
 import Typed from 'react-typed'
-import Avatar from './images/linkedin.png'
+import Logo from './images/logo.png'
 
 const Home = () => {
     return (
         <div className='wrapper1'>
                <div className='home'>
-               <div className='Waterdrop'></div>
-               <img className='img' src={Avatar} alt='avatar' />
+               {/* <div className='Waterdrop'></div> */}
+               <img className='img' src={Logo} alt='avatar' />
                <div className='wrapp-div'> 
                   <p> Hi, I am<br/></p><h1>  Ivan Nikolic</h1> <h2><span className="cursor">   
                    <Typed className='typed'
                     strings={['Frontend developer',
+                              'UI Designer',
                               'Traveler',
                               'A fan of movies'            
                     ]}

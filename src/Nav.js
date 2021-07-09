@@ -89,7 +89,7 @@ const Nav = () => {
           <Route path="/form">
             <Form />
           </Route>
-          <Route exact path="/">
+          <Route path="/">
             <Home />
           </Route>
         </Switch>

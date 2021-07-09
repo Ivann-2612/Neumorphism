@@ -18,15 +18,21 @@ export default function Form() {
 
   return (
     <div className='wrapper'>
+    <div class="preloader">
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+      <div class="square"></div>
+    </div> 
     <form className="contact-form" onSubmit={sendEmail}>
       <div className='contact-form div'>
         <label>Name</label>
         <input type="text" placeholder='Name' name="name" /><br/>
         <label>Email</label>
-        <input type="email" placeholder='Amail Address' name="email" /><br/>
+        <input type="email" placeholder='Email Address' name="email" /><br/>
         <label>Message</label>
         <textarea placeholder='Your message' name="message"></textarea>
-        <input type="submit" value="Send message" />
+        <button type="submit" value="Send message">Send Message</button>
       </div>
     </form>
     </div>

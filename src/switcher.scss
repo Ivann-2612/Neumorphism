@@ -310,7 +310,9 @@
     .contact-form div {
         box-shadow:  -20px 20px 60px #111111,
                       20px -20px 60px #171717 !important;
+                      border: 0.0625rem solid #353535;             
     }
+   
     .nav-link {
         transition: all 0.2s ease;
         box-shadow:  -20px 20px 60px #111111,
@@ -405,3 +407,93 @@
         background-color: #141414;
     }
 }
+.preloader {
+    width: 150px;
+    height: 150px;
+    display: grid;
+    margin: 0 auto;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    z-index: 10;
+  }
+  
+  .square {
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    box-shadow: 0 0 15px, 0 0 5px inset;
+    mix-blend-mode: screen;
+    animation: 
+      border-radius 5s cubic-bezier(0.65, 0, 0.35, 1) infinite,
+      color-change 13s infinite,
+      rotation 7s infinite cubic-bezier(0.76, 0, 0.24, 1);
+    
+    &:nth-child(2) {
+      animation-delay: -1s;
+      animation-duration: 13s, 5s, 7s;
+    }
+    &:nth-child(3) {
+      animation-delay: -3s;
+      animation-duration: 7s, 13s, 5s;
+    }
+    &:nth-child(4) {
+      animation-delay: -5s;
+      animation-duration: 5s, 7s, 13s;
+    }
+    
+    &::before,
+    &::after {
+      content: '';
+      position: absolute;
+      border: inherit;
+      box-shadow: inherit;
+      animation: inherit;
+      animation-direction: reverse;
+    }
+    
+    &::before {
+      top: 30%;
+      right: 30%;
+      bottom: 30%;
+      left: 30%;
+      animation-delay: -2.3s;
+    }
+    
+    &::after {
+      top: -35%;
+      right: -35%;
+      bottom: -35%;
+      left: -35%;
+      border-style: dotted;
+      animation-delay: -1.7s;
+    }
+  }
+  
+  @keyframes rotation {
+    0% { transform: rotate(0deg) }
+    40% { transform: scale(.8) rotate(-144deg)}
+    60% { transform: scale(1.2) rotate(-216deg) }
+    100% { transform: rotate(-360deg) }
+  }
+  
+  @keyframes color-change {
+   0% {  color: crimson; }
+   10% { color: tomato; }
+   20% { color: coral;}
+   30% { color: orange; }
+   40% { color: gold; }
+   50% { color: teal; }
+   60% { color: darkslategray; }
+   70% { color: lightseagreen; }
+   80% { color: mediumturquoise; }
+   90% { color: rgb(242, 243, 237); }
+   100% { color: rgb(223, 98, 123); }
+  }
+  
+  @keyframes border-radius {
+   0% { border-radius: 40% 50%; }
+   20% { border-radius: 80% 60%; }
+   40% { border-radius: 40% 80%; }
+   60% { border-radius: 60% 40%; }
+   80% { border-radius: 50% 40%; }
+   100% { border-radius: 40% 50%; }
+  }
