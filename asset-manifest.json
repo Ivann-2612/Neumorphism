@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/Neumorphism-portfolio/static/css/main.fef49171.chunk.css",
-    "main.js": "/Neumorphism-portfolio/static/js/main.62382270.chunk.js",
-    "main.js.map": "/Neumorphism-portfolio/static/js/main.62382270.chunk.js.map",
+    "main.css": "/Neumorphism-portfolio/static/css/main.db2eeb42.chunk.css",
+    "main.js": "/Neumorphism-portfolio/static/js/main.a9fe3799.chunk.js",
+    "main.js.map": "/Neumorphism-portfolio/static/js/main.a9fe3799.chunk.js.map",
     "runtime-main.js": "/Neumorphism-portfolio/static/js/runtime-main.d328b8e1.js",
     "runtime-main.js.map": "/Neumorphism-portfolio/static/js/runtime-main.d328b8e1.js.map",
     "static/js/2.4ef0ed8d.chunk.js": "/Neumorphism-portfolio/static/js/2.4ef0ed8d.chunk.js",
     "static/js/2.4ef0ed8d.chunk.js.map": "/Neumorphism-portfolio/static/js/2.4ef0ed8d.chunk.js.map",
     "index.html": "/Neumorphism-portfolio/index.html",
-    "static/css/main.fef49171.chunk.css.map": "/Neumorphism-portfolio/static/css/main.fef49171.chunk.css.map",
+    "static/css/main.db2eeb42.chunk.css.map": "/Neumorphism-portfolio/static/css/main.db2eeb42.chunk.css.map",
     "static/js/2.4ef0ed8d.chunk.js.LICENSE.txt": "/Neumorphism-portfolio/static/js/2.4ef0ed8d.chunk.js.LICENSE.txt",
     "static/media/Mataura.9e66f440.png": "/Neumorphism-portfolio/static/media/Mataura.9e66f440.png",
     "static/media/Wairau.29071541.png": "/Neumorphism-portfolio/static/media/Wairau.29071541.png",
+    "static/media/logo.f9ff329f.png": "/Neumorphism-portfolio/static/media/logo.f9ff329f.png",
     "static/media/project-1.34bc178b.png": "/Neumorphism-portfolio/static/media/project-1.34bc178b.png",
     "static/media/project-2.87931d0a.png": "/Neumorphism-portfolio/static/media/project-2.87931d0a.png",
     "static/media/project-3.6fd70701.png": "/Neumorphism-portfolio/static/media/project-3.6fd70701.png",
@@ -20,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d328b8e1.js",
     "static/js/2.4ef0ed8d.chunk.js",
-    "static/css/main.fef49171.chunk.css",
-    "static/js/main.62382270.chunk.js"
+    "static/css/main.db2eeb42.chunk.css",
+    "static/js/main.a9fe3799.chunk.js"
   ]
 }
