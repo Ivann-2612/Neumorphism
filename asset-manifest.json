@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Neumorphism-portfolio/static/css/main.542d5fcf.chunk.css",
+    "main.css": "/Neumorphism-portfolio/static/css/main.c42ce5a2.chunk.css",
     "main.js": "/Neumorphism-portfolio/static/js/main.ced919c6.chunk.js",
     "main.js.map": "/Neumorphism-portfolio/static/js/main.ced919c6.chunk.js.map",
     "runtime-main.js": "/Neumorphism-portfolio/static/js/runtime-main.d328b8e1.js",
@@ -8,7 +8,7 @@
     "static/js/2.4ef0ed8d.chunk.js": "/Neumorphism-portfolio/static/js/2.4ef0ed8d.chunk.js",
     "static/js/2.4ef0ed8d.chunk.js.map": "/Neumorphism-portfolio/static/js/2.4ef0ed8d.chunk.js.map",
     "index.html": "/Neumorphism-portfolio/index.html",
-    "static/css/main.542d5fcf.chunk.css.map": "/Neumorphism-portfolio/static/css/main.542d5fcf.chunk.css.map",
+    "static/css/main.c42ce5a2.chunk.css.map": "/Neumorphism-portfolio/static/css/main.c42ce5a2.chunk.css.map",
     "static/js/2.4ef0ed8d.chunk.js.LICENSE.txt": "/Neumorphism-portfolio/static/js/2.4ef0ed8d.chunk.js.LICENSE.txt",
     "static/media/Mataura.9e66f440.png": "/Neumorphism-portfolio/static/media/Mataura.9e66f440.png",
     "static/media/Wairau.29071541.png": "/Neumorphism-portfolio/static/media/Wairau.29071541.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d328b8e1.js",
     "static/js/2.4ef0ed8d.chunk.js",
-    "static/css/main.542d5fcf.chunk.css",
+    "static/css/main.c42ce5a2.chunk.css",
     "static/js/main.ced919c6.chunk.js"
   ]
 }
